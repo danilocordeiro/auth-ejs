@@ -1,0 +1,21 @@
+{
+  "name": "auth_traversy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "bcryptjs": "2.4.3",
+    "passport": "0.4.0",
+    "mongoose": "5.4.19",
+    "express-session": "1.15.6",
+    "express-ejs-layouts": "2.5.0",
+    "ejs": "2.6.1",
+    "passport-local": "1.0.0",
+    "connect-flash": "0.1.1",
+    "nodemon": "1.18.10",
+    "dotenv": "7.0.0"
+  }
+}
